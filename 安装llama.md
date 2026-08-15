@@ -17,7 +17,7 @@ mkdir build
 cd build
 
 # 生成构建文件
-cmake ..
+cmake .. -DGGML_CUDA=ON
 
 # 编译
 cmake --build . -j$(nproc)
