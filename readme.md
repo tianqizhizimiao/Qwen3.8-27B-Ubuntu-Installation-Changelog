@@ -1,4 +1,4 @@
-## 在ubuntu中部署 Qwen3.8-27b 操作日志
+## 在ubuntu中部署 Qwen3.8-27b
 
 ### 任务目标
 * 使用llama.cpp运行qwen3.8 27B的gguf
