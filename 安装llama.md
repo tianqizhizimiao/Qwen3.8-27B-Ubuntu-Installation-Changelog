@@ -22,3 +22,16 @@ cmake ..
 # 编译
 cmake --build . -j$(nproc)
 ```
+
+### 注册入环境变量(可选)
+```bash
+echo 'export PATH="/youPath/build/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+- 或则直接进入 /youPath/build/bin
+
+### 进行测试
+```bash
+llama-server --help
+```
+- 若无报错即成功
